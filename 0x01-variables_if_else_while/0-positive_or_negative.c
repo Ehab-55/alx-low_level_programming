@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
- * main - print positive if it n>0 or negative if n==0
+ * main - print positive if number is positive or negative if number negative . 
  * retuen: 0
  */
 
@@ -16,15 +16,15 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if(n > 0 ){
+	if(n > 0 ) {
 		printf("%i is positive\n", n);
 	}
 
-	else if(n == 0 ){	
+	else if(n == 0 ) {	
 		printf("%i is zero\n",n);
 	}
 
-	else{
+	else {
 		printf("%i is negative\n", n);	
 	}
 
