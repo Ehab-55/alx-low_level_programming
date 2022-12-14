@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Entey
- * Description - prints if the number is positive , negative or 0
- * Retuen: Always 0
+ * main - Entey point
+ * description - prints if the number is positive , negative or 0
+ * retuen: Always 0 (success)
  */
 
 int main(void)
